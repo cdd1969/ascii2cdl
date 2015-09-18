@@ -1,0 +1,18 @@
+netcdf foobar {    
+
+dimensions:
+    GridX = 1021 ;
+    GridY =  936 ;
+    twelve = 12 ;
+    time = unlimited ;
+
+variables:
+
+  float   gsd(time , twelve, GridX, GridY);
+  float   GridX(GridX);
+  float   GridY(GridY);
+
+  gsd:_FillValue = -999.;
+
+data:
+	GridX =

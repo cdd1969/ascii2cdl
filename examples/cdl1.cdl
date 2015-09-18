@@ -1,0 +1,53 @@
+netcdf foobar {    
+
+dimensions:
+    GridX = * ;
+    GridY =  * ;
+
+variables:
+
+    float   gsd_class1(GridX, GridY);
+  float   gsd_class2(GridX, GridY);
+  float   gsd_class3(GridX, GridY);
+  float   gsd_class4(GridX, GridY);
+  float   gsd_class5(GridX, GridY);
+  float   gsd_class6(GridX, GridY);
+  float   gsd_class7(GridX, GridY);
+  float   gsd_class8(GridX, GridY);
+  float   gsd_class9(GridX, GridY);
+  float   gsd_class10(GridX, GridY);
+  float   gsd_class11(GridX, GridY);
+  float   gsd_class12(GridX, GridY);
+  float   GridX(GridX);
+  float   GridY(GridY);
+
+    gsd_class1 : _FillValue = -999. ;
+    gsd_class2 : _FillValue = -999. ;
+    gsd_class3 : _FillValue = -999. ;
+    gsd_class4 : _FillValue = -999. ;
+    gsd_class5 : _FillValue = -999. ;
+    gsd_class6 : _FillValue = -999. ;
+    gsd_class7 : _FillValue = -999. ;
+    gsd_class8 : _FillValue = -999. ;
+    gsd_class9 : _FillValue = -999. ;
+    gsd_class10 : _FillValue = -999. ;
+    gsd_class11 : _FillValue = -999. ;
+    gsd_class12 : _FillValue = -999. ;
+
+ 
+    data:
+        GridX = *; 
+        GridY = * ;
+        gsd_class1 = * ;
+        gsd_class2 = * ;
+        gsd_class3 = * ;
+        gsd_class4 = * ;
+        gsd_class5 = * ;
+        gsd_class6 = * ;
+        gsd_class7 = * ;
+        gsd_class8 = * ;
+        gsd_class9 = * ;
+        gsd_class10 = * ;
+        gsd_class11 = * ;
+        gsd_class12 = * ;
+}

@@ -1,0 +1,4 @@
+dataFname = InterpolatedGSD_GB.csv 
+skiprows = 1 
+delimiter = , 
+columnDataNames = GridX, GridY, gsd_class1, gsd_class2 ,gsd_class3 ,gsd_class4, gsd_class5 , gsd_class6  ,gsd_class7 ,gsd_class8  ,gsd_class9 ,gsd_class10  ,gsd_class11  ,gsd_class12 
